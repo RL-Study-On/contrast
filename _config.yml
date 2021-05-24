@@ -1,6 +1,6 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
+title: "RL Study ON"
+author: "ON"
+description: "RL 스터디에서 공부한 내용과 프로젝트를 업로드합니다."
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
