@@ -1,5 +1,5 @@
 ## Blog Link
-https://rl-study-on.github.io/contrast/
+Link(https://rl-study-on.github.io/contrast/)
 
 ---
 title: "About"
