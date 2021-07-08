@@ -24,5 +24,5 @@ Maxim Lapan 저 Deep Reinforcement Learning Hands-On의 2nd Edition으로 공부
 
 아래는 리뷰한 논문의 목록입니다. 
 
-- [Deep Recurrent Q-Learning for Partially Observable MDPs](https://arxiv.org/abs/1507.06527)
-- [Hindsight Experience Replay](https://arxiv.org/abs/1707.01495)
+- [Deep Recurrent Q-Learning for Partially Observable MDPs]()
+- [Hindsight Experience Replay]()
