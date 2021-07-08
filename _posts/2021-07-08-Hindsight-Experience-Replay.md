@@ -1,4 +1,4 @@
-[Hindsight experience replay](https://arxiv.org/abs/1707.01495)
+[Paper Link](https://arxiv.org/abs/1707.01495)
 
 ## Introduction
 
