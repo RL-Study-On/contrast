@@ -17,12 +17,10 @@ Maxim Lapan 저 Deep Reinforcement Learning Hands-On의 2nd Edition으로 공부
 ### 타임라인
 
 6/25 — 스터디 시작
-
-7/7 — Chapter 4, 5, 6, 8 
+7/7 — [Chapter 4](), [Chapter 5](), [Chapter 6](), [Chapter 8]() 
 
 ### 논문
 
 아래는 리뷰한 논문의 목록입니다. 
 
-- [Deep Recurrent Q-Learning for Partially Observable MDPs]()
 - [Hindsight Experience Replay]()
