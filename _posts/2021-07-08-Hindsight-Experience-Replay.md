@@ -1,6 +1,4 @@
-# Hindsight Experience Replay
-
-> Andrychowicz, Marcin, et al. "Hindsight experience replay." arXiv preprint arXiv:1707.01495 (2017).
+Andrychowicz, Marcin, et al. "Hindsight experience replay." arXiv preprint arXiv:1707.01495 (2017).[https://arxiv.org/abs/1707.01495]
 
 ## Introduction
 
