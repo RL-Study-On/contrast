@@ -55,7 +55,7 @@ When experiencing some episode $s_0, s_1, ...,s_T$, HER store in the replay buff
 
 Goal being pursued in episode influences the agent’s actions but not the environment dynamics and therefore we can replay each trajectory with an arbitrary goal assuming that we use an off-policy RL algorithm like DQN or DDPG. Set of additional goals used for replay leverages HER.
 
-![./Hindsight Experience Replay 0ee1f876b5f845d994c3c62d29374e40/_202107-01__2.06.09.png](./Hindsight Experience Replay 0ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.06.09.png)
+![Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_202107-01__2.06.09.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_202107-01__2.06.09.png)
 
 ## Experiment
 
