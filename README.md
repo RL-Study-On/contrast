@@ -1,2 +1,6 @@
-## Blog Link
-[Link](https://rl-study-on.github.io/contrast/)
+---
+title: "About"
+permalink: "/about/"
+layout: page
+---
+
