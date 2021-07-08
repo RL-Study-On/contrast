@@ -55,13 +55,13 @@ When experiencing some episode $$s_0, s_1, ...,s_T$$, HER store in the replay bu
 
 Goal being pursued in episode influences the agent’s actions but not the environment dynamics and therefore we can replay each trajectory with an arbitrary goal assuming that we use an off-policy RL algorithm like DQN or DDPG. Set of additional goals used for replay leverages HER.
 
-![_posts/Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.06.09.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.06.09.png)
+![/_posts/Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.06.09.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.06.09.png)
 
 ## Experiment
 
 ### Video
 
-![_posts/Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.09.10.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.09.10.png)
+![/Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.09.10.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.09.10.png)
 
 [https://goo.gl/SMrQnI](https://goo.gl/SMrQnI).
 
@@ -69,7 +69,7 @@ Goal being pursued in episode influences the agent’s actions but not the envir
 
 7-DOF Fetch Robotics arm which has a two-fingered parallel gripper, simulated using the MuJoCo physics engine.
 
-![_posts/Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.10.53.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.10.53.png)
+![/Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.10.53.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.10.53.png)
 
 Different tasks: pushing (top row), sliding (middle row) and pick-and-place (bottom row). The red ball denotes the goal position.
 
