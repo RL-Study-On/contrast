@@ -55,7 +55,7 @@ When experiencing some episode $$s_0, s_1, ...,s_T$$, HER store in the replay bu
 
 Goal being pursued in episode influences the agent’s actions but not the environment dynamics and therefore we can replay each trajectory with an arbitrary goal assuming that we use an off-policy RL algorithm like DQN or DDPG. Set of additional goals used for replay leverages HER.
 
-![../assets/0708-review-minji/_2021-07-01__2.06.09.png](/assets/0708-review-minji/_2021-07-01__2.06.09.png)
+![../assets/0708-review-minji/_2021-07-01__2.06.09.png](https://github.com/RL-Study-On/contrast/blob/master/assets/0708-review-minji/_2021-07-01__2.06.09.png?raw=true)
 
 ## Experiment
 
