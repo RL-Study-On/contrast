@@ -33,7 +33,7 @@ targets $$y_t$$ are computed using actions outputted by the actor, i.e. $$y_t = 
 
 UVFA is an extension of DQN when there is more than one goal. Let G be the be the space of possible goals. Every goal $$g \in G$$  corresponds to some reward function $$r_g : S \times A \rarr \R$$.  The goal stays fixed for the whole episode. The Q function now depends on state-action pair but also on a goal. 
 
-→ $$Q^\pi (s_t, a_t, g)= E[R_t|s_t,a_t,g]$$ 
+→ $$Q^\pi (s_t, a_t, g)= E[R_t\|s_t,a_t,g]$$ 
 
 ### Multi-goal RL
 
@@ -55,13 +55,13 @@ When experiencing some episode $$s_0, s_1, ...,s_T$$, HER store in the replay bu
 
 Goal being pursued in episode influences the agent’s actions but not the environment dynamics and therefore we can replay each trajectory with an arbitrary goal assuming that we use an off-policy RL algorithm like DQN or DDPG. Set of additional goals used for replay leverages HER.
 
-![Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.06.09.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.06.09.png)
+![_posts/Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.06.09.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.06.09.png)
 
 ## Experiment
 
 ### Video
 
-![Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.09.10.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.09.10.png)
+![_posts/Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.09.10.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.09.10.png)
 
 [https://goo.gl/SMrQnI](https://goo.gl/SMrQnI).
 
@@ -69,7 +69,7 @@ Goal being pursued in episode influences the agent’s actions but not the envir
 
 7-DOF Fetch Robotics arm which has a two-fingered parallel gripper, simulated using the MuJoCo physics engine.
 
-![Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.10.53.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.10.53.png)
+![_posts/Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.10.53.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.10.53.png)
 
 Different tasks: pushing (top row), sliding (middle row) and pick-and-place (bottom row). The red ball denotes the goal position.
 
@@ -117,14 +117,14 @@ all objects
 
 ### Performance of HER
 
-![Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.22.08.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.22.08.png)
+![_posts/Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.22.08.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.22.08.png)
 
 Learning curves for multi-goal setup. An episode is considered successful if the distance between the object and the goal at the end of the episode is less than 7cm for pushing and pick-and-place and less than 20cm for sliding. The results are averaged across 5 random seeds and shaded areas represent one standard deviation. The red curves correspond to the future strategy with k = 4 while the blue one corresponds to the final strategy.
 
 DDPG without HER is unable to solve any of the tasks7
 and DDPG with count-based exploration is only able to make some progress on the sliding task. On the other hand, DDPG with HER solves all tasks almost perfectly.
 
-![Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.23.49.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.23.49.png)
+![_posts/Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.23.49.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.23.49.png)
 
 Learning curves for the single-goal case
 
@@ -138,7 +138,7 @@ We evaluted different strategies for choosing additional goals to use with HER.
 - episode: replay with k random states coming from the same episode as the transition being replayed
 - random: replay with k random states encountered so far in the whole training procedure
 
-![Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.27.38.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.27.38.png)
+![_posts/Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.27.38.png](Hindsight%20Experience%20Replay%200ee1f876b5f845d994c3c62d29374e40/_2021-07-01__2.27.38.png)
 
 Number of additional goals used to replay each transition with
 
