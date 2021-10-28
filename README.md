@@ -13,15 +13,3 @@ Maxim Lapan 저 Deep Reinforcement Learning Hands-On의 2nd Edition으로 공부
 코드는 저자의 공식 깃허브에서 코드 리뷰 위주로 공부하고 있으므로, 업로드하지 않을 계획입니다. 몇몇 중요한 코드는 주석을 달아 포스트에 첨부할 계획입니다.
 
 이와 더불어 논문 리뷰와 프로젝트를 진행하고 있습니다. 논문 리뷰, 프로젝트 소개는 공부와 별개의 포스트로 업로드할 계획입니다. 또한, 프로젝트 레포지토리에서 관련 코드를 확인하실 수 있습니다.
-
-### 타임라인
-
-6/25 — 스터디 시작
-
-7/7 — [Chapter 8](https://rl-study-on.github.io/contrast/Chapter-8.-DQN-Extensions/) 
-
-### 논문
-
-아래는 리뷰한 논문의 목록입니다. 
-
-- [Hindsight Experience Replay](https://rl-study-on.github.io/contrast/Hindsight-Experience-Replay/)
